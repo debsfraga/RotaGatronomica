@@ -46,6 +46,7 @@ nav li {
 .banner{
     width: 100%;
     object-fit: cover; /* Server para não ficar achatado*/
+    margin-bottom: 2%;
 }
 /*Estilização do MAIN*/
 .fundo{
@@ -59,6 +60,7 @@ nav li {
     margin-left: 10%;
     align-items: center;
     color: white;
+    margin-bottom: 7%;
 
 /*Imagem do sobre nós*/
 }
@@ -89,4 +91,88 @@ nav li {
 
 .mapa{
   margin-left: 35%;
+  margin-bottom: 2%;
+}
+
+/* Estilização da seção NOSSOS PRODUTOS */
+.nossos_produtos {
+    display: flex;
+    flex-direction: column; /* Mantém o título no topo */
+    align-items: center; /* Centraliza o título */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.titulo_nossosP {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* Correção principal */
+.nossos_produtos_content {
+    display: flex; /* Organiza em linha */
+    justify-content: space-between; /* Separa os elementos */
+    align-items: flex-start; /* Mantém alinhado no topo */
+    width: 70%;
+    /*max-width: 1000px; /* Define um limite de largura */
+    gap: 2px; /* Espaço entre lista e imagem */
+}
+
+/* Ajuste da lista */
+.lista {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    width: 30%; /* Define metade da largura */
+    color: white;
+    list-style-position: inside;
+    margin-right: 0;
+    display: inline-block;
+    vertical-align: "top";
+    padding-left: 15%;
+    list-style: none;
+}
+
+.lista li{
+    line-height: 2;
+}
+
+.lista li:before{
+    content: "★ ";
+}
+
+/* Ajuste da imagem */
+.img_nossosP {
+    display: flex;
+    /*justify-content: flex-end; /* Mantém alinhado à direita */
+    align-items: flex-start;
+    width: 40%; /* Ocupa metade da largura */
+    margin-bottom: 10%;
+}
+
+.img_nossosP img{
+
+    width: 100%; /* Faz com que a imagem ocupe o espaço disponível */
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px rgba(163, 162, 162, 0.315);
+}
+
+.img_nossosP img:hover{
+    opacity: 0.5;
+}
+
+
+.video{
+    margin-bottom: 10%;
+}
+
+/*Estilização do vídeo*/
+.video p{
+    text-align: center;
+    color: white;
 }
