@@ -72,6 +72,10 @@ nav li {
     box-shadow: 10px 10px 30px rgba(163, 162, 162, 0.315);
 }
 
+.img_sobrenos:hover {
+    opacity: 0.5;
+}
+
 .titulo_sobrenos{
     clear: left;
     text-align: center;
@@ -166,7 +170,6 @@ nav li {
     opacity: 0.5;
 }
 
-
 .video{
     margin-bottom: 10%;
 }
@@ -174,5 +177,28 @@ nav li {
 /*Estilização do vídeo*/
 .video p{
     text-align: center;
+    color: white;
+}
+
+/*Estilização do rodapé*/
+footer {
+    background: url("../img/rodapé.png");
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
+    padding: 30px 10px;
+}
+.logo_rodape {
+    width: 15%;
+    margin: 2px 2px -50px 10px;
+}
+
+footer p{
+    color: white;
+    align-items: center;
+}
+
+footer i {
     color: white;
 }
